@@ -1,0 +1,29 @@
+{
+    "login": {
+      "title": "Login",
+      "username": "Username",
+      "password": "Password",
+      "loginButton": "Login"
+    },
+    "adminView": {
+      "title": "Admin View",
+      "productTable": {
+        "id": "ID",
+        "title": "Title",
+        "price": "Price",
+        "actions": "Actions",
+        "addButton": "Add Product",
+        "editButton": "Edit",
+        "deleteButton": "Delete"
+      }
+    },
+    "userView": {
+      "title": "User View",
+      "filters": {
+        "category": "Category",
+        "priceRange": "Price Range",
+        "applyButton": "Apply Filters"
+      }
+    }
+  }
+  

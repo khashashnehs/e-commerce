@@ -1,0 +1,29 @@
+{
+    "login": {
+      "title": "تسجيل الدخول",
+      "username": "اسم المستخدم",
+      "password": "كلمة المرور",
+      "loginButton": "تسجيل الدخول"
+    },
+    "adminView": {
+      "title": "عرض المسؤول",
+      "productTable": {
+        "id": "الرقم",
+        "title": "العنوان",
+        "price": "السعر",
+        "actions": "الإجراءات",
+        "addButton": "إضافة منتج",
+        "editButton": "تحرير",
+        "deleteButton": "حذف"
+      }
+    },
+    "userView": {
+      "title": "عرض المستخدم",
+      "filters": {
+        "category": "الفئة",
+        "priceRange": "نطاق الأسعار",
+        "applyButton": "تطبيق التصفية"
+      }
+    }
+  }
+  

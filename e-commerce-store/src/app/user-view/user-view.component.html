@@ -1,0 +1,14 @@
+<h2>{{ 'userView.title' | translate }}</h2>
+<div class="filters">
+  <!-- Implement filter section here (optional) -->
+</div>
+<div class="categories">
+  <div *ngFor="let category of categories">
+    <h3>{{ category.name }}</h3>
+    <div class="products">
+      <div *ngFor="let product of getProductsByCategory(category)">
+        <app-product-card [product]="product"></app-product-card>
+    </div>
+    </div>
+  </div>
+</div>
